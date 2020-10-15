@@ -76,7 +76,8 @@ return [
     'sendResetLink' => 'Send an email to recover',
     'resetPassword' => 'Reset password',
     'confirmPasswordBefore' => 'Please, confirm your password before continue', 
-
+    'editFromTypeProduct' => 'Edit from product', 
+    'product' => 'Product',
 
 
      

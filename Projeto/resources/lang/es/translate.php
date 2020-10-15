@@ -74,4 +74,6 @@ return [
     'sendResetLink' => 'Envía un correo de recuperación',
     'resetPassword' => 'Recuperar contraseña',
     'confirmPasswordBefore' => 'Confirme su contraseña antes de continuar',
+    'editFromTypeProduct' => 'Editar de tipo producto', 
+    'product' => 'Producto',
 ];

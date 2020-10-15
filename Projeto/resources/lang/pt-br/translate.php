@@ -74,5 +74,8 @@ return [
     'ifNotReceive' => 'Se você não recebeu um email',
     'sendResetLink' => 'Envie um email de recuperação',
     'resetPassword' => 'Recuperar senha',
-    'confirmPasswordBefore' => 'Por favor, confirme sua senha antes de prosseguir', 
+    'confirmPasswordBefore' => 'Por favor, confirme sua senha antes de prosseguir',
+    'editFromTypeProduct' => 'Editar de tipo produto', 
+    'product' => 'Produto',
+    
 ];
