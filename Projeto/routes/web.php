@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    App::setLocale('pt-br');
+    //App::setLocale(Session::get('idioma', Config::get('app.locale')));
     return view('welcome');
 })->name('welcome');
 

@@ -6,8 +6,8 @@
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-header">
-                        {{__('welcome_dashbords.helloUserDashborad', ['user' => Auth::user()->name])}}
-                        {{trans_choice('welcome_dashbords.notificationsCountMessage', 5, ['number' => 5])}}
+                        {{__('translate.helloUserDashborad', ['user' => Auth::user()->name])}}
+                        {{trans_choice('translate.notificationsCountMessage', 5, ['number' => 5])}}
                     </div>
 
                     <div class="card-body text-center">

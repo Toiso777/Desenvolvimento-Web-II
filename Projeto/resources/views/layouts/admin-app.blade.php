@@ -63,7 +63,7 @@
                                     <a class="dropdown-item" href="{{ route('admin.logout') }}"
                                         onclick="event.preventDefault();
                                                     document.getElementById('admin-logout-form').submit();">
-                                        Sair
+                                        {{__('translate.exit')}}
                                     </a>
 
                                     <form id="admin-logout-form" action="{{ route('admin.logout') }}" method="POST"

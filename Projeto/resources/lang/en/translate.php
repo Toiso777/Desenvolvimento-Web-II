@@ -56,7 +56,28 @@ return [
     'keepProfile' => 'Keep Profile',
     'userPage' => 'User Page',
     'youLog' => 'You are log in',
-    'youNotLog' => 'You are not log in'
+    'youNotLog' => 'You are not log in',
+    'registerUser' => 'Register user',
+    'confirmPassword' => 'Confirm the password',
+    'enterAsAdmin' => 'Enter as an admin',
+    'typeName' => 'Type a name',
+    'typeDescription' => 'Type a description',
+    'newOrder' => 'New Order',
+    'addProduct' => 'Add a new product',
+    'sendOrder' => 'Send order',
+    'amount' => 'Amount',
+    'anEmail' => 'An email has been sended to your email ',
+    'beforeProceeding' => 'Before proceeding, please check your email for a verification link.',
+    'ifNotReceive' => 'If you did not receive the email',
+    'clickHere' => 'click here to request another',
+    'verify' => 'Verify your e-mail',
+    'resetAdmin' => 'Reset admin',
+    'ifNotReceive' => 'If you did not receive an email',
+    'sendResetLink' => 'Send an email to recover',
+    'resetPassword' => 'Reset password',
+    'confirmPasswordBefore' => 'Please, confirm your password before continue', 
+
+
 
      
 ];

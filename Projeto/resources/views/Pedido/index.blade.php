@@ -23,7 +23,7 @@
                             <a class="btn btn-primary font-weight-bold w-100" href="{{route('home')}}">{{__('translate.return')}}</a>
                         </div>
                         <div class="col-8">
-                            <input type="submit" class="btn btn-info font-weight-bold w-100" value="Novo pedido">
+                            <input type="submit" class="btn btn-info font-weight-bold w-100" value="{{__('translate.newOrder')}}">
                         </div>
                     </div>
                 </form>
@@ -48,7 +48,7 @@
                 <input type="spinner" id="id-spinner-quantity" class="" value="1" style="width: 90%">
                 <form id="id-form-add-pedido-produto" method="post" action="">
                     @csrf
-                    <input type="submit" id="id-botao-adicionar-produto" class="btn btn-success btn-block my-2 font-weight-bold" value="Adicionar produto">    
+                    <input type="submit" id="id-botao-adicionar-produto" class="btn btn-success btn-block my-2 font-weight-bold" value="{{__('translate.addProduct')}}">    
                 </form>
                 <select class="custom-select mr-sm-2 my-2" id="id-selecao-endereco" name="Enderecos_id">
                     @foreach ($enderecos as $endereco)
@@ -57,7 +57,7 @@
                 </select>
                 <form id="id-form-enviar-pedido" method="post" action="">
                     @csrf
-                    <input type="submit" id="id-botao-enviar-pedido" class="btn btn-info btn-block my-2 font-weight-bold" value="Enviar pedido">
+                    <input type="submit" id="id-botao-enviar-pedido" class="btn btn-info btn-block my-2 font-weight-bold" value="{{__('translate.sendOrder')}}">
                 </form>
             </div>
             <div class="col-lg-4">
@@ -65,7 +65,7 @@
                 <ul id="id-pedido-produtos-list" class="list-group listProdutosSizeVertical my-2">
                 </ul>
                 <div class="input-group">
-                    <input type="text" class="form-control font-weight-bold" value="Valor total:" disabled>
+                    <input type="text" class="form-control font-weight-bold" value="{{__('translate.amount')}}:" disabled>
                     <div class="input-group-append">
                         <span class="input-group-text">R$</span>
                         <span id="id-span-preco" class="input-group-text">0,00</span>

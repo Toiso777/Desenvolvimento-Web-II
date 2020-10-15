@@ -12,16 +12,16 @@
             @csrf
             <div class="form-group">
                 <label for="input-id">ID</label>
-                <input type="text" class="form-control" id="input-id" aria-describedby="idHelp" placeholder="#" disabled>
-                <small id="idHelp" class="form-text text-muted">{{__('translate.isNotRequire')}}</small>
+                <input type="text" class="form-control" id="input-id" aria-describedby="idHelp" placeholder="---------------------------------" disabled>
+                <small id="idHelp" class="form-text text-muted">{{__('translate.isNotRequireID')}}</small>
             </div>
             <div class="form-group">
                 <label for="input-nome">{{__('translate.name')}}</label>
-                <input type="text" name="nome" class="form-control" id="input-nome" placeholder="Digite o nome">
+                <input type="text" name="nome" class="form-control" id="input-nome" placeholder="{{__('translate.typeName')}}">
             </div>
             <div class="form-group">
                 <label for="input-preco">{{__('translate.price')}}</label>
-                <input type="text" name="preco" class="form-control" id="input-preco" placeholder="Digite o preço">
+                <input type="text" name="preco" class="form-control" id="input-preco" placeholder="{{__('translate.typeDescription')}}">
             </div>
             <div class="form-group">
                 <label for="select-tipo">{{__('translate.type')}}</label>
