@@ -88,6 +88,14 @@ return [
     'productRequest' => 'Order request',
     'cancelOrder' => 'Cancel order',
     'finishOrder'=> 'Finish order',
+    'indexFromAddress' => 'Índex de from',
+    'number' => 'Number', 
+    'removeR' => 'Delete resource?',
+    'wantR' => 'Would you like to remove this?',
+    'address' => 'Address',
+    'editFromAddress' => 'Edit from address',
+    'publicPlace' => 'Public place',
+    'storeNewAddress' => 'Add an new address',
 
 
 

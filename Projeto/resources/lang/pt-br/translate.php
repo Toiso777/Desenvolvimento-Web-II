@@ -87,5 +87,11 @@ return [
     'productRequest' => ' Pedido de produto',
     'cancelOrder' => 'Cancelar pedido',
     'finishOrder'=> 'Finalizar pedido',
-    
+    'indexFromAddress' => 'Index de endereço',
+    'number' => 'Número', 
+    'removeR' => 'Remover recurso',
+    'wantR' => 'Deseja remover este recurso?',
+    'address' => 'Endereço',
+    'editFromAddress' => 'Edit de endereço',
+    'publicPlace' => 'Logradouro',
 ];

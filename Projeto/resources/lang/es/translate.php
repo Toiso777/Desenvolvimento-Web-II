@@ -86,4 +86,11 @@ return [
     'productRequest' => ' Pedido de producto',
     'cancelOrder' => 'Terminar lo pedido',
     'finishOrder'=> 'Finalizar lo pedido',
+    'indexFromAddress' => 'Índice de su diréccion',
+    'number' => 'Número', 
+    'removeR' => 'Eliminar recurso',
+    'wantR' => '¿Quieres eliminar esta función??',
+    'address' => 'Diréccion',
+    'editFromAddress' => 'Edit de diréccion',
+    'publicPlace' => 'Lugar público',
 ];
