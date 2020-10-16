@@ -24,6 +24,7 @@ Route::resource('produto', "ProdutoController");
 
 // Rotas do CRUD de pedidos
 Route::get('/pedido', "PedidoController@index")->name("pedido.index");
+Route::get('/pedido-admin', "PedidoController@indexAdmin")->name("pedido.adminIndex");
 Route::post('/pedido/{endereco_id}', "PedidoController@store")->name("pedido.store");
 Route::post('/pedido/{pedido_id}/{endereco_id}', "PedidoController@enviarPedido")->name("pedido.enviarPedido");
 

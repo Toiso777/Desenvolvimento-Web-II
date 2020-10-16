@@ -77,5 +77,15 @@ return [
     'confirmPasswordBefore' => 'Por favor, confirme sua senha antes de prosseguir',
     'editFromTypeProduct' => 'Editar de tipo produto', 
     'product' => 'Produto',
+    'storeNewAddress' => 'Cadastrar Novo Endereço',
+    'neighbour' => 'Bairro',
+    'street' => 'Rua',
+    'number' => 'Número',
+    'complement' => 'Complemento',
+    'user' => 'Usuário',
+    'oldUser' => 'Antigo Usuário',
+    'productRequest' => ' Pedido de produto',
+    'cancelOrder' => 'Cancelar pedido',
+    'finishOrder'=> 'Finalizar pedido',
     
 ];

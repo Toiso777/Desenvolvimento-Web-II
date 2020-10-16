@@ -78,6 +78,17 @@ return [
     'confirmPasswordBefore' => 'Please, confirm your password before continue', 
     'editFromTypeProduct' => 'Edit from product', 
     'product' => 'Product',
+    'addNewAddress' => 'Store New Address',
+    'neighbour' => 'Neighbourhood',
+    'street' => 'Street',
+    'number' => 'Number',
+    'complement' => 'Complement',
+    'user' => 'User',
+    'oldUser' => 'Old User',
+    'productRequest' => 'Order request',
+    'cancelOrder' => 'Cancel order',
+    'finishOrder'=> 'Finish order',
+
 
 
      

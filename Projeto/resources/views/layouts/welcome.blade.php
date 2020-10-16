@@ -31,13 +31,20 @@
                     <div class="collapse navbar-collapse" id="navbarsExample09">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-br"> </span> Português</a>
+                                @if (Session::get('idioma')=='pt-br')
+                                    <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-br"> </span> Português</a>
+                                @else
+                                    @if (Session::get('idioma')=='es')
+                                        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-es"> </span> Espanhol</a>   
+                                    @else
+                                        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-us"> </span> Inglês</a>   
+                                    @endif                                    
+                                @endif
                                 <div class="dropdown-menu" aria-labelledby="dropdown09">
-                                    <a class="dropdown-item" href="{{route('idioma.trocaIdioma', "pt-br")}}"><span class="flag-icon flag-icon-br"> </span>{{__('translate.portuguese')}} </a>
-                                    <a class="dropdown-item" href="{{route('idioma.trocaIdioma', "en")}}"><span class="flag-icon flag-icon-us"> </span> {{__('translate.english')}}</a>
-                                    <a class="dropdown-item" href="{{route('idioma.trocaIdioma', "es")}}"><span class="flag-icon flag-icon-es"> </span> {{__('translate.spanish')}}</a>
+                                    <a class="dropdown-item" href="{{route('idioma.trocaIdioma', "pt-br")}}"><span class="flag-icon flag-icon-br"> </span> Português</a>
+                                    <a class="dropdown-item" href="{{route('idioma.trocaIdioma', "en")}}"><span class="flag-icon flag-icon-us"> </span> Inglês</a>
+                                    <a class="dropdown-item" href="{{route('idioma.trocaIdioma', "es")}}"><span class="flag-icon flag-icon-es"> </span> Espanhol</a>
                                 </div>
-                            </li>
                         </ul>
                     </div>
                 </ul>
