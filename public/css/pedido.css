@@ -1,0 +1,17 @@
+.listPedidosSizeVertical {
+  height:295px;
+  overflow-y: scroll;
+}
+
+.listProdutosSizeVertical {
+  height:252px;
+  overflow-y: scroll;
+}
+
+li button {
+  position: absolute;
+  right: 0;
+  top: 50%;  /* position the top  edge of the element at the middle of the parent */
+  transform: translate(0, -50%); /* This is a shorthand of
+                                         translateX(-50%) and translateY(-50%) */
+}
